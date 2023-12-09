@@ -1,4 +1,3 @@
-
 *::before,
 *::after,
 * {
@@ -31,17 +30,17 @@ body {
   background-color: #1e2140;
   color: white;
 }
-body .main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 body .main-heading {
   font-size: 6.2rem;
   font-weight: 500;
   padding: 10px;
-  
+  text-transform: uppercase;
 }
 body main {
   width: 40rem;
@@ -50,9 +49,10 @@ body main {
   text-align: center;
   margin-top: 40px;
 }
-body .modes{
-    display: flex;
-    /* justify-content: center; */
+body .modes {
+  display: flex;
+  margin-left: 10px;
+  /* justify-content: center; */
 }
 body .links {
   font-size: 1.8rem;
@@ -78,29 +78,28 @@ body .links a:last-child {
   margin-right: 0;
 }
 
-body .icons{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 150px;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+body .icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  border-radius: 30px;
 
-    /* border-top-bottom-radius: 50%; */
-    background: #000;
+  background: #151932;
 }
-body .icons i:first-child{
-    padding: 15px 17px; 
+body .icons i:first-child {
+  padding: 15px 17px;
 }
-body .icons i{
-    font-size: 18px;
-    padding: 15px;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    border-radius: 50%;
-    gap: 20px;
-    /* height: 40px;
+body .icons i {
+  font-size: 18px;
+  padding: 15px;
+  background-color: royalblue;
+  color: #eee;
+  border: none;
+  border-radius: 50%;
+  gap: 20px;
+  cursor: pointer;
+  /* height: 40px;
     width: 40px; */
 }
 
@@ -218,6 +217,9 @@ body .pomodoro__state {
   }
   body .links {
     font-size: 1.5rem;
+  }
+  .pomodoro {
+    height: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
